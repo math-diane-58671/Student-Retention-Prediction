@@ -1,7 +1,8 @@
 /*
-Author: Ruth Clayton, Academic Analytics Coordinator
+Author: Ruth Clayton
 Title: Data Retrieval for Student Retention Analysis
-Date: file created on 3/7/2025, finished on 5/21/2025. Continuing to add comments/adjust
+Date: file created on 3/7/2025, finished on 5/21/2025.
+Description: This is the query I wrote for ORU to get the real student data for this project.
 */
 
 -- list of U.S. state codes in STVSTAT table in Banner
@@ -740,4 +741,5 @@ select
  from all_data
  join id_replacement on id = banner_id and census_year = census_year10
 ;
+
 
